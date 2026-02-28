@@ -4,11 +4,11 @@ model:
   training_mode: "lora"
   load_checkpoint: null
 
-output_dir: "/workspace/train/LTX-2/packages/ltx-trainer/output/custom"
+output_dir: "/workspace/train/output/custom"
 seed: 42
 
 data:
-  preprocessed_data_root: "/workspace/train/LTX-2/packages/ltx-trainer/data/dataset/.precomputed"
+  preprocessed_data_root: "/workspace/train/data/dataset/.precomputed"
   num_dataloader_workers: 2
 
 training_strategy:
